@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+
+    color: #fceded;
+
+}
+img{
+    width: 26%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+li{
+    list-style: none;
+}
+.contaniner{
+    margin:auto;
+    width:100%;
+    overflow: hidden;
+}
+.header{
+    background-image: url(img/CR7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+.nav ul{
+    display: flex;
+    padding: 20px;
+
+}
+.nav ul a{ 
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+
+.header-text{
+    text-align:left;
+    padding-top: 140px;
+    padding-left: 110px;
+    color: rgb(225, 226, 226);
+    
+}
+.header-button button{
+    width: 120px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(42, 151, 165);
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.5s;
+    margin-left: 30px;
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-text{
+    text-align: center;
+    margin-top: 20px;
+}
+.hero-images{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.float-image-1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+
+}
+.float-img{
+    float: left;
+}
+.float-text{
+    float: right;
+    
+}
+.float-img-2{
+    float: right;
+}
+.float-text-2{
+    float: left;
+    margin-top: 300px;
+    margin-left: 100px;
+}
